@@ -23,17 +23,30 @@
       <nav class="navbar navbar-default"> 
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <a class="navbar-brand aos-init aos-animate" data-aos="fade-right" href="#"><img src="images/logo.png"/></a> </div>
+          <a class="navbar-brand aos-init aos-animate" data-aos="fade-right" href="#"><img src="images/logo.png"></a> </div>
         
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
             <li><a href="team.html">Team</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#about">About US</a></li>
-            <li><a href="#contactForm">Contact Us</a></li>
-             <li><a href="#">Career</a></li>
-             <li><a href="#">Others</a></li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Financial</a></li>
+                <li><a href="#">Corporate</a></li>
+                <li><a href="#">Something else here</a>
+                </li>
+              </ul></li>
+              <li><a href="index.html#about">About us</a></li>
+              <li><a href="#index.html#contactForm">Contact Us</a></li>
+              <li><a href="#">Career</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Others <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Something else here</a></li>
           </ul>
         </div>
       </nav>
