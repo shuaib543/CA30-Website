@@ -235,7 +235,7 @@ img{max-width:100% !important;}
 }
 /*contact*/
 /*hm-abt*/
-.hm-abt {background:#000; background-image:url(../Image/hm-abt-bg.jpg); background-attachment:fixed; background-position:top center; padding:100px 0;    background-size: 100% 100%;}
+.hm-abt {background:#FFFFFF; background-image:url(../Image/hm-abt-bg.jpg); background-attachment:fixed; background-position:top center; padding:100px 0;    background-size: 100% 100%;}
 .abt-img img{border:7px solid #ffc610; border-radius:10px;}
 .hm-abt .abt-cont {background-color: #ffffff;border:7px dashed #ffc610;
     padding: 2rem;
