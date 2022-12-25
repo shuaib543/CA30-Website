@@ -11,17 +11,16 @@
 <link href="css/aos.css" rel="stylesheet">
 <link href="css/camera.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
-<script src='js/jquery-1.9.1.min.js' type='text/javascript' ></script>
+<script type='text/javascript' src='js/jquery-1.9.1.min.js'></script>
 <script src="js/bootstrap.min.js"></script>
-<script src='js/aos.js' type='text/javascript' ></script>
-<script src='js/camera.min.js' type='text/javascript' ></script>
-<script src='js/jquery.easing.1.3.js' type='text/javascript' ></script>
+<script type='text/javascript' src='js/aos.js'></script>
+<script type='text/javascript' src='js/camera.min.js'></script>
+<script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
 <script src="https://js/jquery.themepunch.tools.min.js"></script> 
 <script src="https://js/jquery.themepunch.revolution.min.js"></script> 
 <style>
 @media only screen and (min-width: 768px) {
-  .dropdown:hover 
-  .dropdown-menu {
+  .dropdown:hover .dropdown-menu {
     display: block;
   }
 }
@@ -62,13 +61,13 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="Corporate Service.html">Corporate </a></li>
-            <li><a href="#">Audit</a></li>
-            <li><a href="#">Accounting & Financial</a>
+            <li><a href="Corporate Service.html">Corporate</a></li>
+            <li><a href="Audit.html">Audit</a></li>
+            <li><a href="Accounting.html">Accounting & financial</a>
             </li>
           </ul></li>
-          <li><a href="#about">About us</a></li>
-          <li><a href="#contactForm">Contact Us</a></li>
+          <li><a href="About us.html">About us</a></li>
+          <li><a href="contact us.html">Contact Us</a></li>
           <li><a href="Career.html">Career</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Others <span class="caret"></span></a>
@@ -102,7 +101,7 @@
     </div>
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-6">
-        <div class="item aos-init aos-animate" data-aos="fade-right"> <a class="item-link" href="#">
+        <div class="item aos-init aos-animate" data-aos="fade-right"> <a class="item-link" href="Accounting.html">
           <div class="item-hover">
             <div class="item-hover-content"><i class="fa fa-plus"></i></div>
           </div>
@@ -113,7 +112,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-6">
-        <div class="item aos-init aos-animate" data-aos="fade-down"> <a class="item-link" href="#">
+        <div class="item aos-init aos-animate" data-aos="fade-down"> <a class="item-link" href="Audit.html">
           <div class="item-hover">
             <div class="item-hover-content"><i class="fa fa-plus"></i></div>
           </div>
@@ -124,7 +123,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-6">
-        <div class="item aos-init aos-animate" data-aos="fade-left"> <a class="item-link" href="#">
+        <div class="item aos-init aos-animate" data-aos="fade-left"> <a class="item-link" href="Accounting.html">
           <div class="item-hover">
             <div class="item-hover-content"><i class="fa fa-plus"></i></div>
           </div>
@@ -135,7 +134,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-6">
-        <div class="item aos-init aos-animate" data-aos="fade-right"> <a class="item-link" href="#">
+        <div class="item aos-init aos-animate" data-aos="fade-right"> <a class="item-link" href="Corporate Service.html">
           <div class="item-hover">
             <div class="item-hover-content"><i class="fa fa-plus"></i></div>
           </div>
@@ -146,7 +145,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-6">
-        <div class="item aos-init aos-animate" data-aos="fade-up"> <a class="item-link" href="#">
+        <div class="item aos-init aos-animate" data-aos="fade-up"> <a class="item-link" href="Accounting.html">
           <div class="item-hover">
             <div class="item-hover-content"><i class="fa fa-plus"></i></div>
           </div>
@@ -157,7 +156,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-6">
-        <div class="item aos-init aos-animate" data-aos="fade-left"> <a class="item-link" href="#">
+        <div class="item aos-init aos-animate" data-aos="fade-left"> <a class="item-link" href="Accounting.html">
           <div class="item-hover">
             <div class="item-hover-content"><i class="fa fa-plus"></i></div>
           </div>
@@ -188,38 +187,6 @@
     </div>
   </div>
 </section>
-<section class="hm-contact aos-init aos-animate" data-aos="fade-up">
-  <div class="container">
-    <div class="text-center">
-      <h2 class="section-heading text-uppercase">Contact Us</h2>
-    </div>
-    <form id="contactForm" name="sentMessage" novalidate>
-      <div class="row align-items-stretch mb-5">
-        <div class="col-md-6">
-          <div class="form-group">
-            <input class="form-control" id="name" type="text" placeholder="Your Name *"/>
-          </div>
-          <div class="form-group">
-            <input class="form-control" id="email" type="email" placeholder="Your Email *"/>
-          </div>
-          <div class="form-group mb-md-0">
-            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" />
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group form-group-textarea mb-md-0">
-            <textarea class="form-control" id="message" rows="8" placeholder="Your Message *"></textarea>
-            <p class="help-block text-danger"></p>
-          </div>
-        </div>
-      </div>
-      <div class="text-center">
-        <div id="success"></div>
-        <button class="btn btn-sbmit text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
-      </div>
-    </form>
-  </div>
-</section>
 <footer>
   <div class="footer-top">
       <div class="container">
@@ -233,7 +200,7 @@
                   </div>
                   <div class="col-lg-4">
                       <div class="phone-no">
-                          <a href="tel:+12 34 56 78 90"><i class="fa fa-mobile" aria-hidden="true"></i>Call +12 34 56 78 90</a>
+                          <a href="MOB:+918108343382"><i class="fa fa-mobile" aria-hidden="true"></i>Call +918108343385</a>
                       </div>
                   </div>
               </div>
@@ -242,16 +209,16 @@
               <div class="col-lg-4">
                   
                   <h4>About us</h4>
-                  <p>Lorem Ipsum ist einfach Dummy-Text der Druck- und Satzindustrie. Lorem Ipsum war der Standard der Branche Lorem Ipsum ist einfach Dummy-Text der Druck- und Satzindustrie. Lorem Ipsum war der Standard der Branche  </p>
+                  <p><strong>Chartered Accountantss</strong> It is a leading chartered accountancy firm rendering comprehensive professional services which include Audit, Management Consultancy, Tax Consultancy, Accounting Services, Manpower Management, Secretarial Services etc. </p>
 
               </div>
 
               <div class="col-md-4">
                   <h4>Information</h4>
                   <ul class="address1">
-                      <li><i class="fa fa-map-marker"></i>Lorem Ipsum 132 xyz Lorem Ipsum</li>
-                      <li><i class="fa fa-envelope"></i><a href="mailto:#">info@test.com</a></li>
-                      <li><i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:12 34 56 78 90">12 34 56 78 90</a></li>
+                      <li><i class="fa fa-map-marker"></i>Andheri </li>
+                      <li><i class="fa fa-envelope"></i><a href="mailto:#">careeyazbadhra@hotmail.com</a></li>
+                      <li><i class="fa fa-mobile" aria-hidden="true"></i> <a href="MOOB:+918108343385"></a>+918108343385</li>
                   </ul>
               </div>
 
@@ -271,15 +238,15 @@
       <div class="container">
           <div class="row">
               <div class="col-sm-5">
-                  <p class="copyright text-uppercase">Copyright © 2018
+                  <p class="copyright text-uppercase">Copyright © 2022
                   </p>
               </div>
               <div class="col-sm-7">
                   <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About Us</a></li>
-                      <li><a href="#">Our services</a></li>
-                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="About us.html">About Us</a></li>
+                      <li><a href="Corporate Service.html">Our services</a></li>
+                      <li><a href="contact us.html">Contact Us</a></li>
                   </ul>
               </div>
           </div>
@@ -370,7 +337,7 @@ jQuery(window).scroll(function(){
   AOS.init();
 </script>
 <style>
-footer {
+  footer {
     color: #fff;
 }
 ul {
